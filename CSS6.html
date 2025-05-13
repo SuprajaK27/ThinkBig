@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rotating Image with CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+          margin: 0;
+          padding: 40px;
+          font-family: Arial, sans-serif;
+          text-align: center;
+          background-color: #f0f0f0;
+        }
+
+        h2 {
+          color: #333;
+          margin-bottom: 30px;
+        }
+
+        .rotating-image {
+          width: 200px;
+          height: 200px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          animation: rotate 5s linear infinite;
+        }
+
+        @keyframes rotate {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Rotating Image Animation</h2>
+<!-- Replace the src with your preferred image URL -->
+<img src=""C:\Users\19134\OneDrive\Pictures\download.jpeg"" alt="Rotating Image" class="rotating-image">
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colorful Table with Submit Button</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f0f8ff;
+          padding: 20px;
+        }
+
+        table {
+          width: 80%;
+          margin: 0 auto 20px;
+          border-collapse: collapse;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        th, td {
+          border: 1px solid #ddd;
+          padding: 12px 15px;
+          text-align: center;
+        }
+
+        th {
+          background-color: #4CAF50;
+          color: white;
+        }
+
+        tr:nth-child(even) {
+          background-color: #e6f7ff;
+        }
+
+        tr:nth-child(odd) {
+          background-color: #f9f9f9;
+        }
+
+        tr:hover {
+          background-color: #d1e0e0;
+        }
+
+        .submit-btn {
+          display: block;
+          margin: 0 auto;
+          padding: 12px 24px;
+          background-color: #007BFF;
+          color: white;
+          font-size: 16px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .submit-btn:hover {
+          background-color: #0056b3;
+          transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Colorful Table Example</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>alice@example.com</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>bob@example.com</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td>charlie@example.com</td>
+        <td>28</td>
+    </tr>
+</table>
+
+<button class="submit-btn">Submit</button>
+
+</body>
+</html>

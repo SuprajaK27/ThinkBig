@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Navigation Bar</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+
+        /* Navigation Bar Styles */
+        .navbar {
+          background-color: #333;
+          overflow: hidden;
+        }
+
+        .navbar a {
+          float: left;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 20px;
+          text-decoration: none;
+          transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+          background-color: #575757;
+        }
+
+        .navbar a.active {
+          background-color: #04AA6D;
+        }
+
+        /* Page content */
+        .content {
+          padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<!-- Page Content -->
+<div class="content">
+    <h2>Welcome to My Website</h2>
+    <p>This is a simple website with a horizontal navigation bar using internal CSS.</p>
+    <p>The navigation bar is not sticky and scrolls with the page.</p>
+    -- Add long content -->
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum ligula in purus vestibulum, at pulvinar nulla gravida. Sed lacinia luctus lacus, vel accumsan nulla rutrum eget. Fusce at sem mi. Integer dapibus nunc vitae lacus sagittis, nec luctus massa faucibus. Morbi accumsan ligula et diam tincidunt, in blandit magna ultricies. Vivamus feugiat eu sem in scelerisque. Integer finibus dolor a nunc lacinia, non efficitur mauris dapibus.</p>
+
+    <h3>Services</h3>
+    <p>Proin at turpis vitae tortor dapibus convallis. Vivamus semper, neque nec pulvinar viverra, nulla metus tristique velit, nec dictum sapien nulla vitae lacus. Sed in felis viverra, sollicitudin metus at, scelerisque nulla. Donec vel risus ut ante vulputate euismod. Morbi rutrum feugiat eros, eget fringilla orci cursus sed.</p>
+
+    <p>Nam non erat nec sapien viverra malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas nec nisl eget justo facilisis rhoncus at nec sapien. Nullam convallis leo a nisi feugiat, nec rutrum justo aliquam. Sed sit amet massa et diam fermentum egestas. Donec a nulla ut justo vehicula tristique.</p>
+
+    <h3>More Information</h3>
+    <p>Phasellus fringilla nisi nec ligula egestas, at varius justo fringilla. Quisque sagittis tellus sed arcu tempor, eget facilisis lorem gravida. Integer eget bibendum neque. Morbi nec tincidunt sem. Pellentesque ac nulla sit amet justo congue rutrum. Sed ut semper metus. Praesent congue porttitor arcu nec vehicula. Nunc imperdiet imperdiet elit, at tincidunt leo vestibulum nec.</p>
+
+    <p>Scroll further to continue reading. This is additional placeholder text to ensure enough vertical height on the page. Keep scrolling!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque nunc sit amet risus eleifend, ac feugiat est pulvinar. In placerat justo a tincidunt vehicula. Duis condimentum, purus vel dapibus fringilla, risus sapien bibendum erat, at imperdiet ligula urna id massa. Integer euismod velit sit amet leo placerat porta. Cras a volutpat nunc.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan fermentum nisi, nec malesuada justo malesuada in. Proin nec urna nec metus bibendum porttitor a in purus. Suspendisse et augue in justo imperdiet rhoncus. Integer eget lorem id mauris gravida vehicula a ut orci.</p>
+
+    <p>Done! You've scrolled through the full page.</p>
+</div>
+
+</body>
+</html>
